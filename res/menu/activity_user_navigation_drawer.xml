@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_search_flights"
+            android:icon="@drawable/ic_edit"
+            android:title="Search Flights" />
+        <item
+            android:id="@+id/nav_make_reservation"
+            android:icon="@drawable/ic_create"
+            android:title="Make Reservation" />
+        <item
+            android:id="@+id/nav_current_reservations"
+            android:icon="@drawable/ic_reservations"
+            android:title="View Reservations" />
+
+<!--        <item-->
+<!--            android:id="@+id/nav_notifications"-->
+<!--            android:icon="@drawable/ic_archive"-->
+<!--            android:title="Notifications" />-->
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+</menu>

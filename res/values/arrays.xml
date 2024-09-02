@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="food_preferences">
+        <item>Vegetarian</item>
+        <item>Non-Vegetarian</item>
+        <item>Meat</item>
+        <item>Gluten-Free</item>
+        <item>Halal</item>
+        <item>Haram</item>
+    </string-array>
+
+    <string-array name="nationalities">
+        <item>Palestine</item>
+        <item>Jordan</item>
+        <item>Saudi</item>
+        <item>Belgium</item>
+        <item>Portugal</item>
+        <item>Argentine</item>
+        <item>Japanese</item>
+        <item>German</item>
+        <item>French</item>
+        <item>American</item>
+    </string-array>
+
+    <string-array name="cities_array">
+        <item>New York</item>
+        <item>London</item>
+        <item>Paris</item>
+        <item>Frankfurt</item>
+        <item>Dubai</item>
+        <item>Sydney</item>
+        <item>Tokyo</item>
+        <item>Singapore</item>
+        <item>Jenin</item>
+        <item>Ramallah</item>
+        <item>Atlanta</item>
+        <item>Los Angeles</item>
+        <item>Sydney</item>
+        <item>San Francisco</item>
+        <item>Hong Kong</item>
+    </string-array>
+
+    <string-array name="sort_by_array">
+        <item>shortest trip duration</item>
+        <item>Lowest Cost</item>
+    </string-array>
+
+    <string-array name="Flight_Class">
+        <item>economy</item>
+        <item>business</item>
+    </string-array>
+
+    <string-array name="ExtraBags">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="Reservation_Type">
+        <item>Current Reservations</item>
+        <item>Previous Reservations</item>
+    </string-array>
+
+
+</resources>

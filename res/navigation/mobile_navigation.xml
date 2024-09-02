@@ -1,0 +1,42 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.project.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_CreateNewFlight"
+        android:name="com.example.project.ui.admin.CreateNewFlightFragment"
+        android:label="Create New Flight"
+        tools:layout="@layout/fragment_create_new_flight" />
+
+    <fragment
+        android:id="@+id/nav_EditFlight"
+        android:name="com.example.project.ui.admin.EditFlightFragment"
+        android:label="Edit Flight"
+        tools:layout="@layout/fragment_edit_flight" />
+
+    <fragment
+        android:id="@+id/nav_ViewFlights"
+        android:name="com.example.project.ui.admin.ViewFlightsFragment"
+        android:label="View Flights"
+        tools:layout="@layout/fragment_view_flights" />
+
+    <fragment
+        android:id="@+id/nav_ViewReservations"
+        android:name="com.example.project.ui.admin.ViewReservationsFragment"
+        android:label="View Reservations"
+        tools:layout="@layout/fragment_view_reservations" />
+
+    <fragment
+        android:id="@+id/nav_FlightArchive"
+        android:name="com.example.project.ui.admin.FlightArchiveFragment"
+        android:label="Flight Archive"
+        tools:layout="@layout/fragment_flight_archive" />
+</navigation>

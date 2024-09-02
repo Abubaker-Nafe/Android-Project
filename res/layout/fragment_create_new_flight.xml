@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_image"
+    tools:context=".ui.admin.CreateNewFlightFragment">
+
+    <EditText
+        android:id="@+id/editTextFlightNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Flight Number" />
+
+    <EditText
+        android:id="@+id/editTextDeparturePlace"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Departure Place" />
+
+    <EditText
+        android:id="@+id/editTextDestination"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Destination" />
+
+    <EditText
+        android:id="@+id/editTextDepartureDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Select Departure Date" />
+
+    <EditText
+        android:id="@+id/editTextDepartureTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Select Departure Time" />
+
+    <EditText
+        android:id="@+id/editTextArrivalDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Select Arrival Date" />
+
+    <EditText
+        android:id="@+id/editTextArrivalTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Select Arrival Time" />
+
+    <EditText
+        android:id="@+id/editTextDuration"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Duration" />
+
+    <EditText
+        android:id="@+id/editTextAircraftModel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Aircraft Model" />
+
+    <EditText
+        android:id="@+id/editTextMaxSeats"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Max Seats" />
+
+    <EditText
+        android:id="@+id/editTextPriceEconomy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Price (Economy)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextPriceBusiness"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Price (Business)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextPriceExtraPackage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Price Extra Package"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCreateFlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Flight" />
+
+</LinearLayout>

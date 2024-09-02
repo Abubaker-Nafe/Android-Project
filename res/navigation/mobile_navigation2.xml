@@ -1,0 +1,37 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.project.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_search_flights"
+        android:name="com.example.project.ui.user.UserSearchFlightsFragment"
+        android:label="Search Flights"
+        tools:layout="@layout/fragment_user_search_flights" />
+
+    <fragment
+        android:id="@+id/nav_make_reservation"
+        android:name="com.example.project.ui.user.UserMakeNewReservationFragment"
+        android:label="Search Flights"
+        tools:layout="@layout/fragment_user_make_new_reservation" />
+
+    <fragment
+        android:id="@+id/nav_current_reservations"
+        android:name="com.example.project.ui.user.UserViewReservationsFragment"
+        android:label="Current Reservations"
+        tools:layout="@layout/fragment_user_current_reservations" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_notifications"-->
+<!--        android:name="com.example.project.ui.user.UserNotificationsFragment"-->
+<!--        android:label="Notifications"-->
+<!--        tools:layout="@layout/fragment_user_notifications" />-->
+
+</navigation>

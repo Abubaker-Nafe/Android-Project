@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextFlightNumber"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Flight Number"/>
+
+        <Button
+            android:id="@+id/btnSearchFlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Flight"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextDeparturePlace"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Departure Place" />
+
+        <EditText
+            android:id="@+id/editTextDestination"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Destination" />
+
+        <EditText
+            android:id="@+id/editTextDepartureDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Departure Date (YYYY-MM-DD)" />
+
+        <EditText
+            android:id="@+id/editTextDepartureTime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Departure Time (HH:MM)" />
+
+        <EditText
+            android:id="@+id/editTextArrivalDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Arrival Date (YYYY-MM-DD)" />
+
+        <EditText
+            android:id="@+id/editTextArrivalTime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Arrival Time (HH:MM)" />
+
+        <EditText
+            android:id="@+id/editTextDuration"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Duration" />
+
+        <EditText
+            android:id="@+id/editTextAircraftModel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Aircraft Model" />
+
+        <EditText
+            android:id="@+id/editTextMaxSeats"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Max Seats" />
+
+        <EditText
+            android:id="@+id/editTextBookingOpenDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="BookingOpenDate (YYYY-MM-DD)" />
+
+        <EditText
+            android:id="@+id/editTextPriceEconomy"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Price (Economy)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextPriceBusiness"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Price (Business)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextPriceExtraPackage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Price (Extra Package)"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnUpdateFlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Flight"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnDeleteFlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Flight"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

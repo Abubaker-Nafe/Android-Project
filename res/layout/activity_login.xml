@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_image"
+    android:padding="16dp">
+
+    <!-- Progress Bar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true">
+
+<EditText
+    android:id="@+id/editTextEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email" />
+
+<EditText
+    android:id="@+id/editTextPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Password"
+    android:inputType="textPassword" />
+
+<CheckBox
+    android:id="@+id/checkBoxRememberMe"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Remember Me" />
+
+<Button
+    android:id="@+id/btnLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login" />
+
+<!-- Admin sign Up Button -->
+<Button
+    android:id="@+id/AdminbtnSignUp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Admin sign Up"
+    android:layout_marginTop="16dp" />
+
+<!-- User sign Up Button -->
+<Button
+    android:id="@+id/UserbtnSignUp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="User sign Up"
+    android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/plane"
+        android:layout_width="178dp"
+        android:layout_height="129dp"
+        android:src="@drawable/plane_image" />
+
+</LinearLayout>
+    </RelativeLayout>
