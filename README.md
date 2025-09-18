@@ -135,5 +135,3 @@ Android (Java), SQLite, HttpURLConnection/AsyncTask, AndroidX Navigation, Notifi
 
 ### 📄 License
 Academic project; feel free to adapt.
-
-_Last updated: 2025-09-18_
